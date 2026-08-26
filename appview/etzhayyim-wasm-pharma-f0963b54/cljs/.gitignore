@@ -1,0 +1,8 @@
+# Build + dependency output for appview/*/cljs (shadow-cljs). Also covers the
+# now-removed appview/*/svelte (Vite) tree the docs below used to reference.
+node_modules/
+.shadow-cljs/
+.cpcache/
+.nrepl-port
+public/js/
+out/

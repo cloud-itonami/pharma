@@ -7,7 +7,7 @@ OTC 医薬品通販プラットフォーム (pharma.etzhayyim.com). 薬機法コ
 - **Runtime**: TS Native + Lexicon Contract
 - **Domain**: `pharma.etzhayyim.com`
 - **nanoid**: `f0963b54`
-- **Static**: static delivery で `svelte/build/` を配信
+- **Static**: static delivery で `cljs/public/` を配信（reagent + re-frame + jp-go-dds、2026-08-26 に Svelte から移行）
 
 ## CRITICAL: XRPC URL Pattern
 
