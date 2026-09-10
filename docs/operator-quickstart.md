@@ -8,7 +8,7 @@ ClojureScript (shadow-cljs + reagent + re-frame + jp-go-dds) scaffold whose own
 component says so:
 
 ```
-appview/etzhayyim-wasm-pharma-f0963b54/cljs/src/pharma/app.cljs
+appview/etzhayyim-wasm-pharma-f0963b54/cljs/src/pharma/app.kotoba
   :page/heading "etzhayyim-wasm-pharma-f0963b54"
   :page/description "Vite entry scaffold after SvelteKit cleanup."
 ```
