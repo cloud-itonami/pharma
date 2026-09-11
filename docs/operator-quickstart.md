@@ -117,7 +117,7 @@ repo-wide resource governor rather than invoking `shadow-cljs` directly —
 high-load builds are limited to one at a time across the workspace:
 
 ```bash
-node <root>/scripts/resource-guard.mjs run build -- npx shadow-cljs compile app
+node <root>/scripts/resource-guard.mjs run build -- amu compile --target wasm32-browser app
 ```
 
 Actual output:
@@ -133,7 +133,7 @@ Produces a compiled bundle in `public/js/`, served alongside the committed
 ## 4. Test the appview ✅
 
 ```bash
-node <root>/scripts/resource-guard.mjs run build -- npx shadow-cljs compile test
+node <root>/scripts/resource-guard.mjs run build -- amu compile --target wasm32-browser test
 node out/tests.js
 ```
 
