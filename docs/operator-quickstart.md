@@ -1,7 +1,7 @@
 # Operator quickstart
 
 **Read this before treating anything in this repository as a working system.**
-`CLAUDE.md` describes six AI agents coordinating over five Matrix rooms to run
+`AGENTS.md` describes six AI agents coordinating over five Matrix rooms to run
 procurement, stock, fulfilment and delivery for an OTC pharmaceutical storefront
 under 薬機法 compliance. **None of that is in this repository.** What is here is a
 ClojureScript (shadow-cljs + reagent + re-frame + jp-go-dds) scaffold whose own
@@ -41,24 +41,24 @@ never tracked either, see §2).
 
 ## 1. Measure the gap yourself ✅
 
-Everything `CLAUDE.md` describes is searchable, so do not take the paragraph above
+Everything `AGENTS.md` describes is searchable, so do not take the paragraph above
 on trust:
 
 ```bash
 for kw in Matrix pharma-rx01 lexicon xrpc 薬機; do
-  printf '%s outside CLAUDE.md: ' "$kw"
-  git grep -l "$kw" -- . | grep -v CLAUDE.md | wc -l
+  printf '%s outside AGENTS.md: ' "$kw"
+  git grep -l "$kw" -- . | grep -v AGENTS.md | wc -l
 done
 ```
 
 Actual output — every one is zero:
 
 ```
-Matrix outside CLAUDE.md:        0
-pharma-rx01 outside CLAUDE.md:        0
-lexicon outside CLAUDE.md:        0
-xrpc outside CLAUDE.md:        0
-薬機 outside CLAUDE.md:        0
+Matrix outside AGENTS.md:        0
+pharma-rx01 outside AGENTS.md:        0
+lexicon outside AGENTS.md:        0
+xrpc outside AGENTS.md:        0
+薬機 outside AGENTS.md:        0
 ```
 
 The six agent nanoids (`pharma-rx01` … `pharma-cp01`), the Matrix rooms, the

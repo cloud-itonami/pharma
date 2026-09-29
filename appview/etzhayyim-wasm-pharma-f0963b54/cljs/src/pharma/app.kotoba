@@ -6,7 +6,7 @@
   heading + one paragraph, no interactivity, no routing) to reagent + re-frame,
   rendered with `jp-go-dds.core` (デジタル庁デザインシステム) hiccup. This is
   still a scaffold, not the OTC pharmacy platform described in the sibling
-  CLAUDE.md / kotodama.jsonld's `convoSystemPrompt` — see
+  AGENTS.md / kotodama.jsonld's `convoSystemPrompt` — see
   docs/operator-quickstart.md for what is and is not implemented here.
 
   `public/index.html`'s inlined <style> was produced once, at authoring time,
